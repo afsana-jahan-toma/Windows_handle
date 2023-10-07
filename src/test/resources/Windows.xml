@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none">
+    <test name="Basic selenium">
+        <!--        <parameter name="browser" value="firefox" />-->
+        <classes>
+            <class name="Chaldal_windowsHandle" />
+        </classes>
+    </test>
+
+</suite>
